@@ -10,18 +10,19 @@ please provide a solution that returns a linked list in the following order: 
 
 ### to this task use the virtual environment:
         python3 -m venv venv/       # Creates an environment called venv/
-### For run:
-        cmd/bash:    python fibonacci.py
+
+### For run task type in cmd/bash:
+        python fibonacci.py
 
 ---
 
-### How to use docker to rais task:
-
-###               on command prompt/ bash type:
-                        docker-compose build
-                        docker-compose up
+### How to use docker to rais task on command prompt/ bash type:
+        docker-compose build
+        docker-compose up
 
 ---
+
+### contact me:
 
 Moein Ghobbeh
 Email-Address: Moein.Ghobbeh@gmail.com
