@@ -18,3 +18,9 @@ How to use docker to rais task:
 on command prompt/ bash type:
     docker-compose build
     docker-compose up
+
+---
+Moein Ghobbeh
+Email-Address: Moein.Ghobbeh@gmail.com
+Tel: +491789391561
+Berlin 2020
