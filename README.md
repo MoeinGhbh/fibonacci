@@ -1,6 +1,6 @@
 # fibonacci task for eNot Company
  
---
+---
 
 For a given linked list containing the first 100 numbers 
         (0, 1, 1, 2, 3, 5, 8..., 218922995834555200000), 
