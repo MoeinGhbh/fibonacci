@@ -33,7 +33,7 @@ class LinkedList:
             pass
         currrent_node.next=node
 
-if __name__ == "__main__":
+def compute(n):
     fiboSeries = [0,1]
     node = Node(0)
     llist = LinkedList()
@@ -41,14 +41,25 @@ if __name__ == "__main__":
 
     node = Node(1)
     llist.add_last(node)
-    
-    
-    n = 100
+     
     while n-2 > 0 :
         n-=1
         res = fiboSeries[len(fiboSeries)-1]+fiboSeries[len(fiboSeries)-2]
         fiboSeries.append(res)
         node = Node(fiboSeries[len(fiboSeries)-1])
         llist.add_last(node)
+    return llist
 
+if __name__ == "__main__":
+    n = 100
+    llist = compute(n)
     print(llist)
+   
+    
+
+ 
+    
+    
+   
+
+    
