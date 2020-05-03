@@ -1,12 +1,17 @@
+# A single node of a singly linked list
 class Node:
     def __init__(self,data):
+        # constructor
         self.data = data
         self.next = None
 
+# A Linked List class 
 class LinkedList:
+    # constructor
     def __init__(self):
         self.head = None
     
+    # Return string to representation of the object
     def __repr__(self):
         node = self.head
         nodes = []
@@ -15,16 +20,19 @@ class LinkedList:
             node = node.next
         return " , ".join(nodes)
     
+    # returns the iterator object
     def __iter__(self):
         node = self.head
         while node is not None:
             yield node
             node = node.next
     
+    # Pointer to the beginning
     def add_first(self,node):
         node.next = self.head
         self.head = node
     
+    # Pointer to the end
     def add_last(self,node):
         if not self.head:
             self.head = node
@@ -34,6 +42,7 @@ class LinkedList:
         currrent_node.next=node
 
 def compute(n):
+    # First value
     fiboSeries = [0,1]
     node = Node(0)
     llist = LinkedList()
@@ -46,6 +55,7 @@ def compute(n):
         n-=1
         res = fiboSeries[len(fiboSeries)-1]+fiboSeries[len(fiboSeries)-2]
         fiboSeries.append(res)
+        # make desired list
         node = Node(fiboSeries[len(fiboSeries)-1])
         llist.add_last(node)
     return llist
