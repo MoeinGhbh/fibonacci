@@ -9,13 +9,13 @@ please provide a solution that returns a linked list in the following order: 
 
 ---
 
-### First step build virtual environment:
+### First step: build virtual environment:
         python3 -m venv env         # Creates an environment called venv
 
-### Secondd step install pytest:
+### Second step: installing pytest:
         pip install pytest         
 
-### For run task type in cmd/bash:
+### To run task type in cmd/bash:
         python fibonacci.py         # Run TASK File
         py.test                     # Run test 
 
