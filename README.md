@@ -9,7 +9,7 @@ please provide a solution that returns a linked list in the following order: 
 ---
 
 ### to this task use the virtual environment:
-        python3 -m venv env/       # Creates an environment called venv/
+        python3 -m venv env         # Creates an environment called venv/
 
 ### For run task type in cmd/bash:
         python fibonacci.py         # Run TASK File
