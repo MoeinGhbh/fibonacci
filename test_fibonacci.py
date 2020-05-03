@@ -16,7 +16,7 @@ def test_compute():
             test = True
     assert test  
 
-    #  if existe
+    #   if exists
     res=fibonacci.compute(50)
     test = False
     for i in res:
@@ -24,7 +24,7 @@ def test_compute():
             test = True
     assert test  
 
-    #   if not existe
+    #   if not exists
     res=fibonacci.compute(50)
     test = True
     for i in res:
@@ -40,7 +40,5 @@ def test_add_Node():
     assert result.data == 0
     assert repr(result.next)== 'None'
 
-def test_add_list():
-    linklist = fibonacci.LinkedList()
-    assert repr(linklist.head) == 'None'
+
 
