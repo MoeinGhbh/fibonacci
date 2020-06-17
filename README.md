@@ -1,4 +1,4 @@
-# fibonacci task for eNot Company
+# fibonacci
  
 ---
 
